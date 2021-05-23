@@ -1,0 +1,14 @@
+{
+  "name": "meet-landing-page",
+  "version": "1.0.0",
+  "description": "landing page example challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ckharrison",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
