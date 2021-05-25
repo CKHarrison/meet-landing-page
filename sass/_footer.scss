@@ -1,0 +1,30 @@
+
+
+.footer-overlay {
+  // position: relative;
+  background-color: $teal-primary;
+}
+
+// .footer-overlay::after {
+//   content: '';
+//   display: block;
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+//   background: $teal-primary;
+//   top: 0;
+//   left: 0;
+//   opacity: .75;
+// }
+.footer {
+    background-image: url(/starter-code/assets/mobile/image-footer.jpg);
+    background-size: cover;
+    mix-blend-mode: overlay;
+    object-fit: cover;
+    
+
+    .main-content {
+      // figure out why this doesn't work
+      z-index: 99;
+    }
+  }

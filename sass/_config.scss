@@ -1,0 +1,45 @@
+$teal-primary: hsl(192, 37, 48);
+$purple-primary: hsl(268, 34, 53);
+$light-blue: hsl(192, 90, 77);
+$light-purple: hsl(268, 100, 86);
+$dark-black: hsl(240, 21, 20);
+$dark-grey: hsl(240, 10, 57);
+$white: hsl(0, 0, 98);
+
+:root {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $white;
+  color: $dark-grey;
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+
+  h1 {
+  color: $dark-black;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 44px;
+  margin: 0;
+  }
+
+  h2 {
+  color: $dark-black;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 44px;
+  }
+
+  p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 26px;
+  }
+}
+

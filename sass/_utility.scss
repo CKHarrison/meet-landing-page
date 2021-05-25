@@ -1,0 +1,45 @@
+%btn {
+  color: $white;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 1em 2em;
+  text-decoration: none;
+
+  .version-number {
+    color: $light-blue;
+  }
+}
+
+.btn-primary {
+  @extend %btn;
+  background-color: $teal-primary;
+
+  &:hover {
+    background-color: #71C0D4;
+  }
+}
+
+.btn-secondary {
+  @extend %btn;
+  background-color: $purple-primary;
+
+  &:hover {
+    background-color: $light-purple;
+    .version-number {
+      color: #fff;
+    }
+  }
+}
+
+.btn-secondary--small {
+  @extend %btn;
+  background-color: $purple-primary;
+  padding: 1em .5em;
+
+  &:hover {
+    background-color: $light-purple;
+  }
+}
+.white {
+  color: $white;
+}

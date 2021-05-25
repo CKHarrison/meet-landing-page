@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2em;
+
+  .logo {
+    width: 35%;
+  }
+
+  .mobile-hero {
+    width: 130%;
+  }
+  
+  .hero-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+}

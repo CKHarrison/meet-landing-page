@@ -1,0 +1,16 @@
+@import 'config';
+@import 'utility';
+@import 'header';
+@import 'main';
+@import 'footer';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 1.5em;
+  gap:  2em;
+
+}
+
