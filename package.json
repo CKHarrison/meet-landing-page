@@ -4,8 +4,7 @@
   "description": "landing page example challenge",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist",
-    "compile_sass": "node-sass sass/style.scss dist/css/style.css -w"
+    "deploy": "gh-pages -d dist"
   },
   "author": "ckharrison",
   "license": "ISC",
