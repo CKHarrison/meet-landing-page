@@ -4,11 +4,15 @@
   "description": "landing page example challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "ckharrison",
   "license": "ISC",
+  "homepage": "https://ckharrison.github.io/meet-landing-page",
   "dependencies": {
     "node-sass": "^6.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.0"
   }
 }
