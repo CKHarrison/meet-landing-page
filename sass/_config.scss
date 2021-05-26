@@ -45,12 +45,31 @@ body {
 }
 
 @media (min-width: 600px) {
-  h2 {
-    font-size: 2.5rem;
+
+ .hero-title {
+   font-size: 3em;
+ }
+}
+
+@media (min-width: 1100px) {
+
+
+  .hero-title {
+    font-size: 4rem;
+    line-height: 64px;
   }
 
- .main-text {
-   font-size: 1.125rem;
- }
+  .hero-text {
+    font-size: 1.125rem;
+  }
+
+  .main {
+    .main-title {
+      font-size: 2.5rem;
+    }
+    &-text {
+      font-size: 1.125rem;
+    }
+}
 }
 
