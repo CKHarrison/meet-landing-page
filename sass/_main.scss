@@ -10,10 +10,10 @@
    gap: 2em;
 
    .image-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: .5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: .5em;
   }
 
   .main-image {
@@ -34,5 +34,21 @@
     font-size: 2rem;
     margin: 0;
   }
-
  }
+
+@media (min-width: 600px) {
+  .main {
+  
+    .image-row{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr;
+      margin-bottom: 3em;
+    }
+
+    .main-content {
+      width: 65%;
+    }
+  }
+  
+}

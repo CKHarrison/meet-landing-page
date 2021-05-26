@@ -15,6 +15,12 @@
   .mobile-hero {
     width: 100%;
   }
+
+  .section {
+       display: flex;
+       flex-direction: column;
+       gap: 1em;
+     }
   
   .hero-links {
     display: flex;
@@ -23,3 +29,24 @@
     gap: 1em;
   }
 }
+
+ @media (min-width: 600px) {
+   .header {
+     
+    .section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      p {
+        width: 80%;
+      }
+    }
+
+     .hero-links {
+       display: flex;
+       flex-direction: row;
+      justify-content: center;
+   }
+   }
+ }

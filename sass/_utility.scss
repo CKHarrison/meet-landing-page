@@ -5,8 +5,12 @@
   padding: 1em 2em;
   text-decoration: none;
 
-  .version-number {
+  .version-number-primary {
     color: $light-blue;
+  }
+
+  .version-number-secondary {
+    color: $light-purple;
   }
 }
 
