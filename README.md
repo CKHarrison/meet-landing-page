@@ -14,6 +14,7 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Useful resources](#useful-resources)
+  - [Acknowledgements](#acknowledgements)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -60,6 +61,9 @@ I've had issues with overlaying colors over images in the past, like in the foot
 
 - [CSS Tips & Tricks](https://css-tricks.com/apply-a-filter-to-a-background-image/) - This article really helped me figure out how to easily overlay tinting over images. Usually I'd just do it in photoshop and then import the image, but I took this challenge as an opportunity to figure out a pure CSS solution.
 - [SASS Crash Course](https://www.youtube.com/watch?v=nu5mdN2JIwM) - This was a great video to help me polish up on my SASS skills. I've been used to using the built in functionality with Create React App and Ruby on Rails, so this was a good way of learning how to manually compile the SASS.
+
+## Acknowledgements
+Thank you to both Michal and Grace on the FEM slack channel for helping me figure out pathing issues. They were incredibly helpful.
   
 
 - Website - [Ckharrison](https://github.com/ckharrison)
