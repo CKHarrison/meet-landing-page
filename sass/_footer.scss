@@ -77,6 +77,8 @@
   .footer-inside {
     display: grid;
     grid-template-columns: 1fr 1fr auto;
+    align-items: center;
     text-align: left;
+    gap: 2em;
   }
 }
