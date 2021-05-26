@@ -8,7 +8,7 @@
   },
   "author": "ckharrison",
   "license": "ISC",
-  "homepage": "https://ckharrison.github.io/meet-landing-page/dist",
+  "homepage": "https://ckharrison.github.io/meet-landing-page",
   "dependencies": {
     "node-sass": "^6.0.0"
   },
