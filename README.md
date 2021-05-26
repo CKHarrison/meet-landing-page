@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Screenshot
 
-Mobile View
+
 ![Mobile View](/screenshots/mobile-design-screenshot.png)
-Tablet View
+
 ![Tablet View](/screenshots/tablet-design-screenshot.png)
-Desktop View
+
 ![Desktop View](/screenshots/desktop-design-screenshot.png)
 
 ### Links
